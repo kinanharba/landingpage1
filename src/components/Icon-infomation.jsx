@@ -6,8 +6,8 @@ import Setting from "./Bilder/Setting.gif";
 import Partnership from "./Bilder/Partnership.gif";
 import Info from "./Bilder/Info.gif";
 import background from "../background.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import chek from "./Bilder/chek.png";
+import { FaCheck } from "react-icons/fa";
+import logo from "./Bilder/POS-Cach.png";
 
 /*
 Externer Barcodescanner
@@ -53,29 +53,48 @@ function IconInfomation() {
       </li>
       {selectedImg === 0 && open === true ? (
         <div class="info-box-card">
-          <img src={background} alt="" />
+          <img class="img" src={background} alt="" />
           <div className="infomation-product">
-            <p>Externer Barcodescanner</p>
-            <span>
-              <i class="fa-duotone fa-check"></i>
-            </span>{" "}
-            <p>Zusätzlich integriertes 10 Kundendisplay</p>
-            <span>
-              <i class="fa-duotone fa-check"></i>
-            </span>{" "}
-            <p>Integrierter Drucker mit automatischem Bonschnitt</p>
-            <span>
-              <i class="fa-duotone fa-check"></i>
-            </span>{" "}
-            <p>Mobiles/ stationäres Premium Payment-Terminal</p>
-            <span>
-              <i class="fa-duotone fa-check"></i>
-            </span>{" "}
-            <p>Erweiterbar durch paytec Zusatzmodule</p>
-            <span>
-              <i class="fa-duotone fa-check"></i>
-            </span>{" "}
-            <p>Hinterlegung von bis zu 5.000 Artikeln</p>
+            <div>
+              {" "}
+              <FaCheck style={{ color: "#3c82f6" }} />
+              <span>Externer Barcodescanner</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Zusätzlich integriertes 10 Kundendisplay</span>
+            </div>
+
+            <div>
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Integrierter Drucker mit automatischem Bonschnitt</span>
+            </div>
+
+            <div>
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Mobiles/ stationäres Premium Payment-Terminal</span>
+            </div>
+
+            <div>
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Erweiterbar durch paytec Zusatzmodule</span>
+            </div>
+
+            <div>
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Hinterlegung von bis zu 5.000 Artikeln</span>
+            </div>
           </div>
         </div>
       ) : (
@@ -93,17 +112,63 @@ function IconInfomation() {
       </li>
       {selectedImg === 1 && open === true ? (
         <div class="info-box-card">
-          <img src={background} alt="" />
-          <p>Detaillierte Berichterstattung inkl. Rechnungsarchiv</p>
-          <p>Simple Ziehung von Z- und X- Berichten</p>
-          <p>Einfache Stornofunktion</p>
-          <p>Fernzugriff auf die Kassendaten durch Deinen Cloud Zugang</p>
-          <p>Sichere Kassenführung durch rechtskonforme TSE</p>
-          <p>
-            Erfüllt alle GoBD- und KassenSichV-Anforderungen fü Ihr
-            rechtskonformes Geschäft
-          </p>
-          <p>Daten-Export / Import im CSV-/ Excel-Format</p>
+          <img class="img" src={background} alt="" />
+          <div className="infomation-product-1">
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Detaillierte Berichterstattung inkl. Rechnungsarchiv</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Simple Ziehung von Z- und X- Berichten</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Einfache Stornofunktion</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>
+                Fernzugriff auf die Kassendaten durch Deinen Cloud Zugang
+              </span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Sichere Kassenführung durch rechtskonforme TSE</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>
+                Erfüllt alle GoBD- und KassenSichV-Anforderungen fü Ihr
+                rechtskonformes Geschäft
+              </span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Daten-Export / Import im CSV-/ Excel-Format</span>
+            </div>
+          </div>
         </div>
       ) : (
         ""
@@ -120,8 +185,8 @@ function IconInfomation() {
       </li>
       {selectedImg === 2 && open === true ? (
         <div style={{ height: "60px" }} class="info-box-card">
-          <img src={background} alt="" />
-          <p>
+          <img class="img" src={background} alt="" />
+          <p style={{ color: "black" }}>
             24/7 Telefonsupport per E-Mail & Telefon durch ausgebildete
             Techniker
           </p>
@@ -141,7 +206,7 @@ function IconInfomation() {
       </li>
       {selectedImg === 3 && open === true ? (
         <div class="info-box-card">
-          <img src={background} alt="" />
+          <img class="img" src={background} alt="" />
         </div>
       ) : (
         ""
@@ -156,9 +221,131 @@ function IconInfomation() {
           alt=""
         />
       </li>
+
+      {/* 
+      
+
+
+
+
+
+
+
+
+• 
+รบกล
+
+
+0,00 -
+
+      
+      */}
       {selectedImg === 4 && open === true ? (
-        <div class="info-box-card">
-          <img src={background} alt="" />
+        <div class="info-box-card-1">
+          <img class="img-1" src={background} alt="" />
+
+          <img class="pay-img-cach" src={logo} alt="" />
+          <div className="infomation-product-4">
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Externer Barcodescanner</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>
+                24/7 Telefonsupport per E-Mail & Telefon durch ausgebildete
+                Techniker
+              </span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Integrierter Drucker mit automatischen Bonschnitt</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Erweiterbar durch paytec Zusatzmodule</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>
+                Erfüllt alle GoBD- und KassenSichV-Anforderungen für Ihr
+                rechtskonformes Geschäft
+              </span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>
+                Fernzugriff auf die Kassendaten durch deinen Cloud Zugang
+              </span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Simple Ziehung von Z- und X- Berichten</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Einfache Stornofunktion</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Sichere Kassenführung durch rechtskonforme TSE</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Detaillierte Berichterstattung inkl. Rechnungsarchiv</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Hinterlegung von bis zu 5.000 Artikeln</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Daten-Export / Import im CSV-/ Excel-Format</span>
+            </div>
+            <div>
+              {" "}
+              <span>
+                <FaCheck style={{ color: "#3c82f6" }} />
+              </span>
+              <span>Zusätzlich integriertes 10" Kundendisplay</span>
+            </div>
+          </div>
         </div>
       ) : (
         ""
