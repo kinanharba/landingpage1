@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landingpage1/static/css/main.baf16ec4.css",
-    "main.js": "/landingpage1/static/js/main.62afda20.js",
+    "main.css": "/landingpage1/static/css/main.faeb555c.css",
+    "main.js": "/landingpage1/static/js/main.875da582.js",
     "static/js/453.2b9430d9.chunk.js": "/landingpage1/static/js/453.2b9430d9.chunk.js",
     "static/media/background.png": "/landingpage1/static/media/background.68bd9cbac7498f371a1b.png",
     "static/media/24Service.gif": "/landingpage1/static/media/24Service.d134b15bb702c08bdfd0.gif",
@@ -12,12 +12,12 @@
     "static/media/KasseTablet.png": "/landingpage1/static/media/KasseTablet.175a3479223be0d09a0c.png",
     "static/media/FirstKasseLogo.png": "/landingpage1/static/media/FirstKasseLogo.996d0ce1e89836bd95fc.png",
     "index.html": "/landingpage1/index.html",
-    "main.baf16ec4.css.map": "/landingpage1/static/css/main.baf16ec4.css.map",
-    "main.62afda20.js.map": "/landingpage1/static/js/main.62afda20.js.map",
+    "main.faeb555c.css.map": "/landingpage1/static/css/main.faeb555c.css.map",
+    "main.875da582.js.map": "/landingpage1/static/js/main.875da582.js.map",
     "453.2b9430d9.chunk.js.map": "/landingpage1/static/js/453.2b9430d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.baf16ec4.css",
-    "static/js/main.62afda20.js"
+    "static/css/main.faeb555c.css",
+    "static/js/main.875da582.js"
   ]
 }
